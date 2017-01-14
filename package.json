@@ -1,0 +1,15 @@
+{
+    "main": "build/app.js",
+    "scripts": {
+        "start": "node --harmony ./build/app.js",
+        "inspect": "node --harmony --inspect ./build/app.js",
+        "build": "gulp build --gulpfile gulpfile.js",
+        "build-watch": "gulp watch --gulpfile gulpfile.js"
+    },
+    "dependencies": {
+        "babel-plugin-transform-es2015-modules-commonjs": "*",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-babel": "*",
+        "gulp-changed": "*"
+    }
+}
