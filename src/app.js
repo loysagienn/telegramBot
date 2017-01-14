@@ -22,8 +22,6 @@ if (botToken) {
 
 function getUpdates() {
 
-    console.log('get updates');
-
     const params = {
         timeout: pollingTimeout
     };
